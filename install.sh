@@ -6,8 +6,7 @@ git config --global alias.st status
 git config --global alias.ci commit
 
 sudo apt-get update
-sudo apt-get install vim
-sudo apt-get install tmux
+sudo apt-get install -y vim tmux
 
 git clone https://github.com/msrose/dotvim ~/.vim
 bash ~/.vim/install.sh
