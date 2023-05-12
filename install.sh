@@ -11,4 +11,4 @@ sudo apt-get install -y vim tmux
 git clone https://github.com/msrose/dotvim ~/.vim
 bash ~/.vim/install.sh
 
-vim -c ':PlugInstall' -c ':PlugClean' -c ':qa'
+vim --not-a-term -c ':PlugInstall' -c ':PlugClean' -c ':qa'
