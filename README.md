@@ -27,5 +27,5 @@ You may need to install the sshd feature in your devcontainer file:
 
 TODO:
 * oh-my-zsh
-* universal-ctags
+* ~universal-ctags~
 * vim plugins
